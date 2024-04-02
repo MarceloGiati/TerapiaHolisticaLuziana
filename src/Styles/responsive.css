@@ -1,0 +1,119 @@
+@media screen and (max-width: 770px) {
+    /* Home */
+    #banner {
+        height: 100vh;
+    }
+    
+    .logo {
+        width: 250px;
+        height: 250px;
+        top: .5rem;
+        left: 16%;
+    }
+
+    .banner-text {
+        padding-top: 15rem;
+    }
+
+    .banner-text p {
+        font-size: 20px;
+    }
+
+    #menuBtn {
+        width: 40px;
+        height: 40px;
+        top: 30px;
+        right: 30px;
+    }
+
+    #menuBtn img {
+        width: 25px;
+        margin-top: 8px;
+    }
+   
+    .banner-text h1 {
+        font-size: 50px;
+    }
+
+    /* .banner-btn a {
+        display: block;
+        margin: 20px auto;
+    } */
+
+    #banner .nome {
+        margin-top: 75px;
+    }
+    
+    #sideNav {
+       width: 280px;
+       height: 100%; 
+       font-size: 5px;
+       position: absolute;
+    }
+
+    nav ul {
+       display: block;
+       margin: 0;
+       padding-top: 50px;
+    }
+
+    nav ul li {
+        margin: 50px 20px;
+        font-size: 23px;
+    }
+
+    /* .content {
+
+    } */
+
+    .content .title-text h1 {
+        font-size: 25px;
+    }
+
+    .title-text {
+        height: 70px;
+        padding: 0;
+    }
+
+    .title-text h1 {
+        margin: 25px 0 0;
+        font-size: 35px;
+    }
+
+    .feature-box {
+        width: 80%;
+    }
+
+    .feature {
+        /* margin-bottom: 20px; */
+        flex-basis: 100%;
+    }
+
+    .feature h1 {
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .fentures-desc {
+        margin-bottom: 15px;
+    }
+
+    .fentures-desc p {
+        padding: 10px;
+        max-width: 100%;
+        max-height: 120px;
+        text-align: justify;
+        overflow-y: auto;
+        border: 2px solid #e095e9;
+    }
+
+    .feature-img {
+        flex-basis: 100%;
+    }
+
+    .feature-img img {
+        width: 100%;
+        height: 390px;
+    }
+
+}
